@@ -16,7 +16,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Executive Summary](#-executive-summary)
 - [Business Problem](#-business-problem)
@@ -32,18 +32,17 @@
 - [Business Impact](#-business-impact)
 - [Recommendations](#-recommendations)
 - [Lessons Learned](#-lessons-learned)
-- [Team](#-team)
 - [References](#-references)
 
 ---
 
-## 🎯 Executive Summary
+## Executive Summary
 
-This repository documents the end-to-end design of a **Data Governance Framework** for **Agromonti Company Ltd**, a Ghanaian SME that distributes fertilizers, seeds, and crop protection products to smallholder and commercial farmers nationwide. Agromonti operates a growing network of agronomists, logistics teams, and field agents — generating rich data from GPS-tagged deliveries to field-level agronomic feedback.
+This repository documents the end-to-end design of a **Data Governance Framework** for **Agromonti Company Ltd**, a Ghanaian SME that distributes fertilizers, seeds and crop protection products to smallholder and commercial farmers nationwide. Agromonti operates a growing network of agronomists, logistics teams and field agents who generate rich data from GPS-tagged deliveries to field-level agronomic feedback.
 
-Despite its data-rich environment, Agromonti had no formal data governance structure in place. Data practices were largely manual and fragmented, exposing the company to inefficiencies, legal risks, and ethical concerns. This engagement was structured as a **consulting-style academic project**, simulating a real enterprise governance redesign.
+Despite its data-rich environment, Agromonti had no formal data governance structure in place. Data practices were largely manual and fragmented, exposing the company to inefficiencies, legal risks and ethical concerns. This engagement was structured as a **consulting-style academic project**, simulating a real enterprise governance redesign.
 
-The resulting framework is built on **five pillars** adapted from **Ladley's DAMA-DMBOK2 model**, aligned with **Ghana's Data Protection Act, 2012 (Act 843)**, and designed to support Agromonti's ambition to expand across the West African sub-region.
+The resulting framework is built on **five pillars** adapted from **Ladley's DAMA-DMBOK2 model**, aligned with **Ghana's Data Protection Act, 2012 (Act 843)** and designed to support Agromonti's ambition to expand across the West African sub-region.
 
 > **Project Course:** OMIS 312 — Data Governance
 > **Project Theme:** *"Data Governance Framework for Development: Empowering Ghana's Digital Future"*
@@ -52,7 +51,7 @@ The resulting framework is built on **five pillars** adapted from **Ladley's DAM
 
 ---
 
-## 🔴 Business Problem
+##  Business Problem
 
 ### The Governance Vacuum
 
@@ -70,27 +69,27 @@ A staff-wide questionnaire and field interviews revealed five critical failure a
 
 Primary data was collected through:
 
-1. Structured questionnaires administered to the Head of IT, Director, Administrator, and Sales Agronomists
+1. Structured questionnaires administered to the Head of IT, Director, Administrator and Sales Agronomists
 2. Semi-structured follow-up interviews
 3. Digital form submissions via Google Forms and PDFs
 4. On-site observations and mobile field surveys
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 1. **Assess** the current state of data governance at Agromonti using structured interviews, questionnaires, and document review
 2. **Design** a governance framework tailored to agricultural SME data — GPS field data, farmer profiles, sales transactions, logistics records, NGO partner data
 3. **Align** the framework to DAMA-DMBOK2 principles and Ghana's Data Protection Act (Act 843)
-4. **Define** governance roles, responsibilities, and decision rights across all operational layers
-5. **Develop** enforceable data policies covering quality, access, metadata, retention, and ethics
+4. **Define** governance roles, responsibilities and decision rights across all operational layers
+5. **Develop** enforceable data policies covering quality, access, metadata, retention and ethics
 6. **Establish** a consent and privacy management structure for farmers and field partners
 7. **Create** a 12-month phased implementation roadmap with measurable milestones
 8. **Build** KPI monitoring mechanisms for continuous governance improvement
 
 ---
 
-## 🏛️ Governance Framework Overview
+##  Governance Framework Overview
 
 The Agromonti Data Governance Framework is built on five pillars:
 
@@ -121,7 +120,7 @@ The Agromonti Data Governance Framework is built on five pillars:
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 ```
                     ┌───────────────────────────────┐
@@ -157,14 +156,14 @@ The Agromonti Data Governance Framework is built on five pillars:
 
 ---
 
-## 🔧 Key Framework Components
+## Key Framework Components
 
 ### Pillar 1 — Definition of Data Roles and Responsibilities
 A comprehensive governance charter introducing:
-- **Data Governance Committee (DGC)** — operations, logistics, and IT managers meeting quarterly
-- **Data Governance Lead (DGL)** — preferably the IT Head, overseeing policies, access, and breach reporting
+- **Data Governance Committee (DGC)** — operations, logistics and IT managers meeting quarterly
+- **Data Governance Lead (DGL)** — preferably the IT Head, overseeing policies, access and breach reporting
 - **Data Stewards** — assigned per department (Sales Agronomy, Finance, Administration)
-- **RACI Matrix** — defining who is Responsible, Accountable, Consulted, and Informed
+- **RACI Matrix** — defining who is Responsible, Accountable, Consulted and Informed
 
 ### Pillar 2 — Data Inventory and Metadata Management
 A **Metadata Repository and Data Dictionary** (built on Google Sheets / Airtable) tracking:
@@ -184,19 +183,19 @@ Scalable security across three areas:
 Aligning governance with Agromonti's BI dashboards:
 - BI measures linked to certified, registry-documented data sources
 - Inline data quality indicators (e.g., "Last updated: 5 days ago", "Accuracy score: 92%")
-- Automated validation scripts (Google AppScript / Python) to flag anomalies, duplicates, and missing values weekly
+- Automated validation scripts (Google AppScript / Python) to flag anomalies, duplicates and missing values weekly
 - Future AI/ML integration for predictive analytics and inventory planning
 
 ### Pillar 5 — Ethical Data Use and Consent Management
 Addressing ethical and legal gaps:
 - Consent forms and privacy notices at all data collection points (physical and digital)
 - Digitized consent logging via mobile apps and Google Forms
-- **Customer Data Rights Policy** — enabling data subjects to access, correct, withdraw, or report misuse of their data
+- **Customer Data Rights Policy** — enabling data subjects to access, correct, withdraw or report misuse of their data
 - Staff training on data minimization principles
 
 ---
 
-## 👥 Stakeholder Roles & RACI
+## Stakeholder Roles & RACI
 
 | Stakeholder | RACI Role | Key Responsibility |
 |---|---|---|
@@ -210,7 +209,7 @@ Addressing ethical and legal gaps:
 
 ---
 
-## 🗓️ Implementation Roadmap
+##  Implementation Roadmap
 
 ### Phase 1 — Months 1–3: Foundation & Policy Making
 
@@ -264,7 +263,7 @@ Addressing ethical and legal gaps:
 
 ---
 
-## 📊 KPIs & Success Metrics
+##  KPIs & Success Metrics
 
 | KPI | Description | Target |
 |---|---|---|
@@ -277,7 +276,7 @@ Addressing ethical and legal gaps:
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 | Function | Tools / Platforms |
 |---|---|
@@ -293,7 +292,7 @@ Addressing ethical and legal gaps:
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 data-governance-agromonti/
@@ -330,13 +329,13 @@ data-governance-agromonti/
 
 ---
 
-## 💼 Business Impact
+##  Business Impact
 
 ### Operational Efficiency
-A structured governance framework eliminates data ambiguity that slows logistics and field operations. When agronomists, IT, and management work from a single source of truth, delivery errors decrease, field reports improve, and decisions become data-driven rather than guesswork.
+A structured governance framework eliminates data ambiguity that slows logistics and field operations. When agronomists, IT, and management work from a single source of truth, delivery errors decrease, field reports improve and decisions become data-driven rather than guesswork.
 
 ### Regulatory Risk Reduction
-Without governance, Agromonti faces material risk of fines under Ghana's Data Protection Act (Act 843). The framework provides the audit trail, consent mechanisms, and breach notification protocols required by law, and positions the company for DPC registration.
+Without governance, Agromonti faces material risk of fines under Ghana's Data Protection Act (Act 843). The framework provides the audit trail, consent mechanisms and breach notification protocols required by law and positions the company for DPC registration.
 
 ### Stakeholder & Partner Confidence
 Government agencies, NGO partners, and commercial farmers increasingly expect responsible data handling. A formalized governance framework signals maturity and trustworthiness to all stakeholders in Agromonti's data ecosystem.
@@ -349,16 +348,16 @@ The framework is designed to grow with the business — from a Ghana-centric ope
 
 ---
 
-## ✅ Recommendations
+##  Recommendations
 
-1. **Appoint a Data Governance Lead immediately** — a defined authority responsible for day-to-day policy enforcement and reporting
+1. **Appoint a Data Governance Lead immediately** — a defined authority responsible for day-to-day policy enforcement and reporting.
 2. **Establish the Data Governance Committee in Month 1** — with Board endorsement and cross-departmental representation
-3. **Prioritize DPC Registration** — register as a data controller, implement consent mechanisms, and assign a compliance lead before scaling operations
-4. **Build a Metadata Registry before expanding tools** — data inventory must precede BI and AI investment
+3. **Prioritize DPC Registration** — register as a data controller, implement consent mechanisms and assign a compliance lead before scaling operations.
+4. **Build a Metadata Registry before expanding tools** — data inventory must precede BI and AI investment.
 5. **Invest in continuous training** — move from ad hoc onboarding to quarterly data governance workshops for all staff
-6. **Sign Data Sharing Agreements with all external partners** — especially NGOs and government agencies providing third-party datasets
-7. **Conduct Ethical Impact Reviews before any AI deployment** — ensure fairness, transparency, and human oversight in all ML-driven decisions
-8. **Engage the University of Ghana Business School (UGBS)** — for academic collaboration, governance benchmarking, and long-term research partnerships
+6. **Sign Data Sharing Agreements with all external partners** — especially NGOs and government agencies providing third-party datasets.
+7. **Conduct Ethical Impact Reviews before any AI deployment** — ensure fairness, transparency and human oversight in all ML-driven decisions.
+8. **Engage the University of Ghana Business School (UGBS)** — for academic collaboration, governance benchmarking and long-term research partnerships.
 
 ---
 
@@ -374,31 +373,15 @@ The framework is designed to grow with the business — from a Ghana-centric ope
 
 ---
 
-## 👥 Team
-
-| Name | Student ID |
-|---|---|
-| Nene Kuditchar | 11310176 |
-| Helina Commey | 11115880 |
-| Raphael Debrah Mireku | 11117769 |
-| Elikem Joshua Mawuli | 11293951 |
-| Abigail Ansah Amponsah | 11019225 |
-| Sheila Semenyo Ayertey | 11334501 |
-| Bright Kofi Nyantakyi | 11296261 |
-| Prince Nimako Boadu | 11048556 |
-| Haziel Opoku Okyere | 11297675 |
-| Christian Sekpe | 11355411 |
-| Jonathan Tsekpo | 11352464 |
-
-**Course:** OMIS 312 — Data Governance
+**Course:** OMIS 312 Data Governance
 **Instructor:** Dr. Abeeku Sam Edu
-**Institution:** University of Ghana Business School (UGBS)
+**Institution:** University of Ghana Business School (UGBS) , Legon-Accra.
 **Project Theme:** *Data Governance Framework for Development: Empowering Ghana's Digital Future*
 **Submitted:** July 2025
 
 ---
 
-## 📚 References
+##  References
 
 - Ladley, J. (2012). *Data Governance: How to Design, Deploy, and Sustain an Effective Data Governance Program* (2nd ed.). Morgan Kaufmann.
 - Eryurek, E., Gilad, U., Lakshmanan, V., Kibunguchy-Grant, A., & Ashdown, J. (2021). *Data Governance: The Definitive Guide.* O'Reilly Media.
@@ -415,6 +398,6 @@ The framework is designed to grow with the business — from a Ghana-centric ope
 *This project represents a real-world consulting engagement conducted as part of OMIS 312 coursework.*
 *All framework content is based on primary stakeholder data collected from Agromonti Company Ltd.*
 
-**⭐ If this framework helped your understanding of data governance, please star this repository.**
+** If this framework helped your understanding of data governance, please star this repository.**
 
 </div>
