@@ -6,9 +6,9 @@
 
 ## 📌 Project Overview
 
-This project presents a comprehensive **Data Governance Framework** designed for **Agromonti Company Ltd**, a Ghanaian SME that distributes fertilizers, seeds and crop protection products to farmers nationwide. Despite operating in a data-rich environment — from GPS-tagged deliveries to field-level agronomic feedback — Agromonti had no formal data governance structure in place.
+This project presents a comprehensive **Data Governance Framework** designed for **Agromonti Company Ltd**, a Ghanaian SME that distributes fertilizers, seeds and crop protection products to farmers nationwide. Despite operating in a data-rich environment with GPS-tagged deliveries and field-level agronomic feedback, Agromonti had no formal data governance structure in place.
 
-Our team conducted on-site research, structured interviews, and staff questionnaires to diagnose governance gaps and propose a practical, scalable solution tailored to the company's size, regulatory context, and digital maturity.
+My team and I conducted on-site research, structured interviews and staff questionnaires to diagnose governance gaps and propose a practical, scalable solution tailored to the company's size, regulatory context and digital maturity.
 
 ---
 
@@ -16,7 +16,6 @@ Our team conducted on-site research, structured interviews, and staff questionna
 
 - **Industry:** Agriculture & Agri-Logistics
 - **Location:** Ghana
-- **Size:** ~30 employees
 - **Operations:** Fertilizer and seed distribution, GPS-tracked logistics, field agronomy support
 - **Tagline:** *"We Understand Agric"*
 
@@ -34,7 +33,7 @@ Internal research revealed five critical governance gaps at Agromonti:
 
 ---
 
-## 🏛️ Proposed Framework — Five Pillars
+## Proposed Framework — Five Pillars
 
 The framework is adapted from **Ladley's DAMA-DMBOK2 model** and aligned with **Ghana's Data Protection Act, 2012 (Act 843)**.
 
@@ -48,7 +47,7 @@ The framework is adapted from **Ladley's DAMA-DMBOK2 model** and aligned with **
 
 ---
 
-## 🗓️ 12-Month Implementation Roadmap
+##  12-Month Implementation Roadmap
 
 ### Phase 1 — Months 1–3: Foundation & Policy Making
 - Appoint a Data Governance Lead (DGL)
@@ -79,9 +78,8 @@ The framework is adapted from **Ladley's DAMA-DMBOK2 model** and aligned with **
 - Begin AI readiness planning
 - Develop Governance Roadmap 2.0
 
----
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 | Function | Tools/Platforms |
 |----------|----------------|
@@ -94,9 +92,8 @@ The framework is adapted from **Ladley's DAMA-DMBOK2 model** and aligned with **
 | Access Control | Role-Based Access Control (RBAC), 2FA |
 | Physical Security | Facial Recognition, Mobile GPS Devices |
 
----
 
-## ⚠️ Risk & Ethical Considerations
+##  Risk & Ethical Considerations
 
 | Risk Category | Key Issues | Mitigation |
 |---------------|-----------|------------|
@@ -106,9 +103,8 @@ The framework is adapted from **Ladley's DAMA-DMBOK2 model** and aligned with **
 | Ethical | No privacy notices, no customer opt-out | Multilingual privacy notices, data minimization training |
 | AI/ML Future Risk | Bias, lack of transparency | Ethical Impact Reviews (EIRs) before AI deployment |
 
----
 
-## 📊 Governance KPIs (Dashboard Metrics)
+## Governance KPIs (Dashboard Metrics)
 
 - ✅ % Metadata Completion
 - ✅ % Consent Forms Collected (Monthly)
@@ -116,11 +112,9 @@ The framework is adapted from **Ladley's DAMA-DMBOK2 model** and aligned with **
 - ✅ Number of Access Incidents (Last 30 Days)
 - ✅ % Staff Trained per Governance Course
 
----
 
-## 📁 Repository Structure
+##  Repository Structure
 
-```
 data-governance-agromonti/
 │
 ├── README.md
@@ -137,17 +131,15 @@ data-governance-agromonti/
 │   └── ai-ethical-impact-review.md
 └── assets/
     └── agromonti-logo.png
-```
 
 
-## 🎓 Course Information
+## Course Information
 
 - **Course:** OMIS 312 — Data Governance
 - **Instructor:** Dr. Abeeku Sam Edu
 - **Institution:** University of Ghana, Legon-Accra.
 - **Submitted:** July 2025
 
----
 
 ## 📚 Key References
 
@@ -156,6 +148,6 @@ data-governance-agromonti/
 - Ghana Data Protection Commission. (2012). *Data Protection Act, 2012 (Act 843).* https://www.dataprotection.org.gh/
 - Isaak, J. & Hanna, M. J. (2018). User data privacy: Facebook, Cambridge Analytica, and privacy protection. *Computer, 51*(8), 56–59.
 
----
 
-> *"Data governance is essential to Agromonti's operational resilience, compliance, and digital transformation. With the right leadership, structure, and cultural support, Agromonti can become a model for responsible data management among SMEs in Ghana."*
+
+ *"Data governance is essential to Agromonti's operational resilience, compliance and digital transformation. With the right leadership, structure and cultural support, Agromonti can become a model for responsible data management among SMEs in Ghana."*
