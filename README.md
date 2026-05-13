@@ -1,13 +1,12 @@
-# 📊 Data Governance Framework — Agromonti Company Ltd
+# 📊 Data Governance Framework for Agromonti Company Ltd
 
-> **OMIS 312: Data Governance — Term Paper**  
+> **OMIS 312: Data Governance Term Paper**  
 > *Empowering Ghana's Digital Future through Responsible Data Management*
 
----
 
 ## 📌 Project Overview
 
-This project presents a comprehensive **Data Governance Framework** designed for **Agromonti Company Ltd**, a Ghanaian SME that distributes fertilizers, seeds, and crop protection products to farmers nationwide. Despite operating in a data-rich environment — from GPS-tagged deliveries to field-level agronomic feedback — Agromonti had no formal data governance structure in place.
+This project presents a comprehensive **Data Governance Framework** designed for **Agromonti Company Ltd**, a Ghanaian SME that distributes fertilizers, seeds and crop protection products to farmers nationwide. Despite operating in a data-rich environment — from GPS-tagged deliveries to field-level agronomic feedback — Agromonti had no formal data governance structure in place.
 
 Our team conducted on-site research, structured interviews, and staff questionnaires to diagnose governance gaps and propose a practical, scalable solution tailored to the company's size, regulatory context, and digital maturity.
 
@@ -140,31 +139,12 @@ data-governance-agromonti/
     └── agromonti-logo.png
 ```
 
----
-
-## 👥 Team Members
-
-| Name | Student ID |
-|------|-----------|
-| Nene Kuditchar | 11310176 |
-| Helina Commey | 11115880 |
-| Raphael Debrah Mireku | 11117769 |
-| Elikem Joshua Mawuli | 11293951 |
-| Abigail Ansah Amponsah | 11019225 |
-| Sheila Semenyo Ayertey | 11334501 |
-| Bright Kofi Nyantakyi | 11296261 |
-| Prince Nimako Boadu | 11048556 |
-| Haziel Opoku Okyere | 11297675 |
-| Christian Sekpe | 11355411 |
-| Jonathan Tsekpo | 11352464 |
-
----
 
 ## 🎓 Course Information
 
 - **Course:** OMIS 312 — Data Governance
 - **Instructor:** Dr. Abeeku Sam Edu
-- **Institution:** [Your University Name]
+- **Institution:** University of Ghana, Legon-Accra.
 - **Submitted:** July 2025
 
 ---
